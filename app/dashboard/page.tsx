@@ -54,6 +54,15 @@ export default function DashboardPage() {
             >
               {loading ? "Actualizando..." : "↻ Actualizar"}
             </button>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1Jh8HlLdTWfcdnSsAT0_Nsjm4GygMbPgl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded border border-emerald-700/60 bg-emerald-900/30 px-2 py-1 text-xs text-emerald-200 hover:bg-emerald-800/60 transition-colors"
+              title="Descarga el resultado completo del análisis distribuido (3.1 GB · 530 MB comprimido en .gz)"
+            >
+              ⬇ Descargar Resultado
+            </a>
           </div>
         </div>
 
